@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211126A01823CD93004698BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2111269F1823CD93004698BA /* Foundation.framework */; };
+		211126A21823CD93004698BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211126A11823CD93004698BA /* CoreGraphics.framework */; };
+		211126A41823CD93004698BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211126A31823CD93004698BA /* UIKit.framework */; };
+		211126AA1823CD93004698BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 211126A81823CD93004698BA /* InfoPlist.strings */; };
+		211126AC1823CD93004698BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 211126AB1823CD93004698BA /* main.m */; };
+		211126B01823CD93004698BA /* JpPluscNSRailsTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 211126AF1823CD93004698BA /* JpPluscNSRailsTestAppDelegate.m */; };
+		211126B31823CD93004698BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211126B11823CD93004698BA /* Main.storyboard */; };
+		211126B61823CD93004698BA /* JpPluscNSRailsTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211126B51823CD93004698BA /* JpPluscNSRailsTestViewController.m */; };
+		211126B81823CD93004698BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211126B71823CD93004698BA /* Images.xcassets */; };
+		211126BF1823CD93004698BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211126BE1823CD93004698BA /* XCTest.framework */; };
+		211126C01823CD93004698BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2111269F1823CD93004698BA /* Foundation.framework */; };
+		211126C11823CD93004698BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211126A31823CD93004698BA /* UIKit.framework */; };
+		211126C91823CD93004698BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 211126C71823CD93004698BA /* InfoPlist.strings */; };
+		211126CB1823CD93004698BA /* NSRailsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 211126CA1823CD93004698BA /* NSRailsTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		211126C21823CD93004698BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 211126941823CD92004698BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2111269B1823CD92004698BA;
+			remoteInfo = NSRailsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2111269C1823CD93004698BA /* NSRailsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSRailsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2111269F1823CD93004698BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		211126A11823CD93004698BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		211126A31823CD93004698BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		211126A71823CD93004698BA /* NSRailsTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSRailsTest-Info.plist"; sourceTree = "<group>"; };
+		211126A91823CD93004698BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		211126AB1823CD93004698BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		211126AD1823CD93004698BA /* NSRailsTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSRailsTest-Prefix.pch"; sourceTree = "<group>"; };
+		211126AE1823CD93004698BA /* JpPluscNSRailsTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JpPluscNSRailsTestAppDelegate.h; sourceTree = "<group>"; };
+		211126AF1823CD93004698BA /* JpPluscNSRailsTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JpPluscNSRailsTestAppDelegate.m; sourceTree = "<group>"; };
+		211126B21823CD93004698BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		211126B41823CD93004698BA /* JpPluscNSRailsTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JpPluscNSRailsTestViewController.h; sourceTree = "<group>"; };
+		211126B51823CD93004698BA /* JpPluscNSRailsTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JpPluscNSRailsTestViewController.m; sourceTree = "<group>"; };
+		211126B71823CD93004698BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		211126BD1823CD93004698BA /* NSRailsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSRailsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		211126BE1823CD93004698BA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		211126C61823CD93004698BA /* NSRailsTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSRailsTestTests-Info.plist"; sourceTree = "<group>"; };
+		211126C81823CD93004698BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		211126CA1823CD93004698BA /* NSRailsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRailsTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		211126991823CD92004698BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211126A21823CD93004698BA /* CoreGraphics.framework in Frameworks */,
+				211126A41823CD93004698BA /* UIKit.framework in Frameworks */,
+				211126A01823CD93004698BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211126BA1823CD93004698BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211126BF1823CD93004698BA /* XCTest.framework in Frameworks */,
+				211126C11823CD93004698BA /* UIKit.framework in Frameworks */,
+				211126C01823CD93004698BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		211126931823CD92004698BA = {
+			isa = PBXGroup;
+			children = (
+				211126A51823CD93004698BA /* NSRailsTest */,
+				211126C41823CD93004698BA /* NSRailsTestTests */,
+				2111269E1823CD93004698BA /* Frameworks */,
+				2111269D1823CD93004698BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2111269D1823CD93004698BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2111269C1823CD93004698BA /* NSRailsTest.app */,
+				211126BD1823CD93004698BA /* NSRailsTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2111269E1823CD93004698BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2111269F1823CD93004698BA /* Foundation.framework */,
+				211126A11823CD93004698BA /* CoreGraphics.framework */,
+				211126A31823CD93004698BA /* UIKit.framework */,
+				211126BE1823CD93004698BA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		211126A51823CD93004698BA /* NSRailsTest */ = {
+			isa = PBXGroup;
+			children = (
+				211126AE1823CD93004698BA /* JpPluscNSRailsTestAppDelegate.h */,
+				211126AF1823CD93004698BA /* JpPluscNSRailsTestAppDelegate.m */,
+				211126B11823CD93004698BA /* Main.storyboard */,
+				211126B41823CD93004698BA /* JpPluscNSRailsTestViewController.h */,
+				211126B51823CD93004698BA /* JpPluscNSRailsTestViewController.m */,
+				211126B71823CD93004698BA /* Images.xcassets */,
+				211126A61823CD93004698BA /* Supporting Files */,
+			);
+			path = NSRailsTest;
+			sourceTree = "<group>";
+		};
+		211126A61823CD93004698BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				211126A71823CD93004698BA /* NSRailsTest-Info.plist */,
+				211126A81823CD93004698BA /* InfoPlist.strings */,
+				211126AB1823CD93004698BA /* main.m */,
+				211126AD1823CD93004698BA /* NSRailsTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		211126C41823CD93004698BA /* NSRailsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				211126CA1823CD93004698BA /* NSRailsTestTests.m */,
+				211126C51823CD93004698BA /* Supporting Files */,
+			);
+			path = NSRailsTestTests;
+			sourceTree = "<group>";
+		};
+		211126C51823CD93004698BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				211126C61823CD93004698BA /* NSRailsTestTests-Info.plist */,
+				211126C71823CD93004698BA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2111269B1823CD92004698BA /* NSRailsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211126CE1823CD93004698BA /* Build configuration list for PBXNativeTarget "NSRailsTest" */;
+			buildPhases = (
+				211126981823CD92004698BA /* Sources */,
+				211126991823CD92004698BA /* Frameworks */,
+				2111269A1823CD92004698BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSRailsTest;
+			productName = NSRailsTest;
+			productReference = 2111269C1823CD93004698BA /* NSRailsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		211126BC1823CD93004698BA /* NSRailsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211126D11823CD93004698BA /* Build configuration list for PBXNativeTarget "NSRailsTestTests" */;
+			buildPhases = (
+				211126B91823CD93004698BA /* Sources */,
+				211126BA1823CD93004698BA /* Frameworks */,
+				211126BB1823CD93004698BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				211126C31823CD93004698BA /* PBXTargetDependency */,
+			);
+			name = NSRailsTestTests;
+			productName = NSRailsTestTests;
+			productReference = 211126BD1823CD93004698BA /* NSRailsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		211126941823CD92004698BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JpPluscNSRailsTest;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = hiroyuki.mizukami;
+				TargetAttributes = {
+					211126BC1823CD93004698BA = {
+						TestTargetID = 2111269B1823CD92004698BA;
+					};
+				};
+			};
+			buildConfigurationList = 211126971823CD92004698BA /* Build configuration list for PBXProject "NSRailsTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 211126931823CD92004698BA;
+			productRefGroup = 2111269D1823CD93004698BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2111269B1823CD92004698BA /* NSRailsTest */,
+				211126BC1823CD93004698BA /* NSRailsTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2111269A1823CD92004698BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211126B81823CD93004698BA /* Images.xcassets in Resources */,
+				211126AA1823CD93004698BA /* InfoPlist.strings in Resources */,
+				211126B31823CD93004698BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211126BB1823CD93004698BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211126C91823CD93004698BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		211126981823CD92004698BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211126B61823CD93004698BA /* JpPluscNSRailsTestViewController.m in Sources */,
+				211126AC1823CD93004698BA /* main.m in Sources */,
+				211126B01823CD93004698BA /* JpPluscNSRailsTestAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211126B91823CD93004698BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211126CB1823CD93004698BA /* NSRailsTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		211126C31823CD93004698BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2111269B1823CD92004698BA /* NSRailsTest */;
+			targetProxy = 211126C21823CD93004698BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		211126A81823CD93004698BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211126A91823CD93004698BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		211126B11823CD93004698BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211126B21823CD93004698BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		211126C71823CD93004698BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211126C81823CD93004698BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		211126CC1823CD93004698BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		211126CD1823CD93004698BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		211126CF1823CD93004698BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSRailsTest/NSRailsTest-Prefix.pch";
+				INFOPLIST_FILE = "NSRailsTest/NSRailsTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		211126D01823CD93004698BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSRailsTest/NSRailsTest-Prefix.pch";
+				INFOPLIST_FILE = "NSRailsTest/NSRailsTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		211126D21823CD93004698BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSRailsTest.app/NSRailsTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSRailsTest/NSRailsTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSRailsTestTests/NSRailsTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		211126D31823CD93004698BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSRailsTest.app/NSRailsTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSRailsTest/NSRailsTest-Prefix.pch";
+				INFOPLIST_FILE = "NSRailsTestTests/NSRailsTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		211126971823CD92004698BA /* Build configuration list for PBXProject "NSRailsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211126CC1823CD93004698BA /* Debug */,
+				211126CD1823CD93004698BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211126CE1823CD93004698BA /* Build configuration list for PBXNativeTarget "NSRailsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211126CF1823CD93004698BA /* Debug */,
+				211126D01823CD93004698BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		211126D11823CD93004698BA /* Build configuration list for PBXNativeTarget "NSRailsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211126D21823CD93004698BA /* Debug */,
+				211126D31823CD93004698BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 211126941823CD92004698BA /* Project object */;
+}
