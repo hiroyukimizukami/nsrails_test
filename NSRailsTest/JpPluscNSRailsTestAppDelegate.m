@@ -7,12 +7,16 @@
 //
 
 #import "JpPluscNSRailsTestAppDelegate.h"
+#import "NSRails.h"
 
 @implementation JpPluscNSRailsTestAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [NSRConfig defaultConfig].appURL = @"http://localhost:3000";
+    
     return YES;
 }
 							

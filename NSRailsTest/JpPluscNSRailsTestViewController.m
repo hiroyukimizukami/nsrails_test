@@ -7,6 +7,8 @@
 //
 
 #import "JpPluscNSRailsTestViewController.h"
+#import "JpPluscNSRailsTestUser.h"
+#include <stdlib.h>
 
 @interface JpPluscNSRailsTestViewController ()
 
@@ -22,6 +24,9 @@
     self.aGender.delegate = self;
     self.aGender.dataSource = self;
     self.aGender.showsSelectionIndicator = YES;
+    
+    UITapGestureRecognizer *gestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(closeSoftKeyboard)];
+    [self.view addGestureRecognizer:gestureRecognizer];
 }
 
 - (void)didReceiveMemoryWarning
@@ -31,8 +36,32 @@
 }
 
 - (IBAction)didSignupButtonTapped:(id)sender {
+    NSError* error;
+    
+    int r = arc4random() % 10000;
+    NSNumber* uid = [NSNumber numberWithInt:r];
+    
+    JpPluscNSRailsTestUser *user = [JpPluscNSRailsTestUser remoteObjectWithID:uid error:&error];
+    NSLog(@"%@", user);
+    
+    if (user == nil) {
+        int val = [self.aGender selectedRowInComponent:0];
+        
+        
+        user = [[JpPluscNSRailsTestUser alloc] init];
+        user.name = self.aName.text;
+        user.email = self.aEmail.text;
+        user.passwd = self.aPasswd.text;
+        user.gender = [NSString stringWithFormat:@"%d", val];
+        
+        [user remoteCreate:&error];
+    }
+    
 }
 
+- (void)closeSoftKeyboard {
+    [self.view endEditing: YES];
+}
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
 {

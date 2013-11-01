@@ -95,7 +95,7 @@
                         <outlet property="aGender" destination="ipa-nB-hny" id="UBr-Fk-Aq1"/>
                         <outlet property="aName" destination="G96-cp-DfC" id="5Ln-uf-lDd"/>
                         <outlet property="aNaviBar" destination="HtS-GV-bed" id="nGZ-lW-QQR"/>
-                        <outlet property="aPasswd" destination="ipa-nB-hny" id="Pe1-oa-Ay5"/>
+                        <outlet property="aPasswd" destination="Scz-gc-prC" id="BLV-P2-esQ"/>
                         <outlet property="loginButton" destination="i60-pM-lyz" id="Lcc-ey-1Ll"/>
                     </connections>
                 </viewController>
