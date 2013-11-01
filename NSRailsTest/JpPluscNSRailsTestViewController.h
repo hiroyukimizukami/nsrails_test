@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface JpPluscNSRailsTestViewController : UIViewController
+    <UIPickerViewDelegate, UIPickerViewDataSource>
+@property (weak, nonatomic) IBOutlet UINavigationBar *aNaviBar;
+@property (weak, nonatomic) IBOutlet UIPickerView *aGender;
+@property (weak, nonatomic) IBOutlet UITextField *aEmail;
+@property (weak, nonatomic) IBOutlet UIPickerView *aPasswd;
+@property (weak, nonatomic) IBOutlet UIButton *loginButton;
+@property (weak, nonatomic) IBOutlet UITextField *aName;
+- (IBAction)didSignupButtonTapped:(id)sender;
 
 @end
