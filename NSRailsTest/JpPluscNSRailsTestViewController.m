@@ -36,27 +36,25 @@
 }
 
 - (IBAction)didSignupButtonTapped:(id)sender {
-    NSError* error;
     
-    int r = arc4random() % 10000;
-    NSNumber* uid = [NSNumber numberWithInt:r];
+//    int r = arc4random() % 10000;
+//    NSNumber* uid = [NSNumber numberWithInt:r];
     
-    JpPluscNSRailsTestUser *user = [JpPluscNSRailsTestUser remoteObjectWithID:uid error:&error];
+    JpPluscNSRailsTestUser *user = [[JpPluscNSRailsTestUser alloc] init];
     NSLog(@"%@", user);
     
-    if (user == nil) {
-        int val = [self.aGender selectedRowInComponent:0];
-        
-        
-        user = [[JpPluscNSRailsTestUser alloc] init];
-        user.name = self.aName.text;
-        user.email = self.aEmail.text;
-        user.passwd = self.aPasswd.text;
-        user.gender = [NSString stringWithFormat:@"%d", val];
-        
-        [user remoteCreate:&error];
-    }
+    long val = [self.aGender selectedRowInComponent:0];
     
+    
+    user = [[JpPluscNSRailsTestUser alloc] init];
+    user.name = self.aName.text;
+    user.email = self.aEmail.text;
+    user.passwd = self.aPasswd.text;
+    user.gender = [NSString stringWithFormat:@"%ld", val];
+    
+    [user remoteCreateAsync:^(NSError *error) {
+        NSLog(@"%@", error);
+    }];
 }
 
 - (void)closeSoftKeyboard {
