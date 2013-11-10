@@ -22,6 +22,9 @@
 		211126C91823CD93004698BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 211126C71823CD93004698BA /* InfoPlist.strings */; };
 		211126CB1823CD93004698BA /* NSRailsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 211126CA1823CD93004698BA /* NSRailsTestTests.m */; };
 		21B720491823E12700CD505D /* JpPluscNSRailsTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B720481823E12700CD505D /* JpPluscNSRailsTestUser.m */; };
+		2DFB4FFC182D511800E7E9DE /* JpPluscNSRailsTestSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFB4FFB182D511800E7E9DE /* JpPluscNSRailsTestSecondViewController.m */; };
+		2DFB4FFF182DF79800E7E9DE /* JpPluscNSRailsTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFB4FFE182DF79800E7E9DE /* JpPluscNSRailsTestCell.m */; };
+		2DFB5001182DF82B00E7E9DE /* JpPluscNSRailsTestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DFB5000182DF82B00E7E9DE /* JpPluscNSRailsTestCell.xib */; };
 		CC837F26CA7D4290948D66E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A19F632D194A85BC59575F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,11 @@
 		211126CA1823CD93004698BA /* NSRailsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSRailsTestTests.m; sourceTree = "<group>"; };
 		21B720471823E12700CD505D /* JpPluscNSRailsTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpPluscNSRailsTestUser.h; sourceTree = "<group>"; };
 		21B720481823E12700CD505D /* JpPluscNSRailsTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JpPluscNSRailsTestUser.m; sourceTree = "<group>"; };
+		2DFB4FFA182D511800E7E9DE /* JpPluscNSRailsTestSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JpPluscNSRailsTestSecondViewController.h; path = ../JpPluscNSRailsTestSecondViewController.h; sourceTree = "<group>"; };
+		2DFB4FFB182D511800E7E9DE /* JpPluscNSRailsTestSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JpPluscNSRailsTestSecondViewController.m; path = ../JpPluscNSRailsTestSecondViewController.m; sourceTree = "<group>"; };
+		2DFB4FFD182DF79800E7E9DE /* JpPluscNSRailsTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpPluscNSRailsTestCell.h; sourceTree = "<group>"; };
+		2DFB4FFE182DF79800E7E9DE /* JpPluscNSRailsTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JpPluscNSRailsTestCell.m; sourceTree = "<group>"; };
+		2DFB5000182DF82B00E7E9DE /* JpPluscNSRailsTestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JpPluscNSRailsTestCell.xib; sourceTree = "<group>"; };
 		35A19F632D194A85BC59575F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D901DFAC058C4AE689AA33F6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +129,8 @@
 		211126A51823CD93004698BA /* NSRailsTest */ = {
 			isa = PBXGroup;
 			children = (
+				2DFB4FFA182D511800E7E9DE /* JpPluscNSRailsTestSecondViewController.h */,
+				2DFB4FFB182D511800E7E9DE /* JpPluscNSRailsTestSecondViewController.m */,
 				211126AE1823CD93004698BA /* JpPluscNSRailsTestAppDelegate.h */,
 				211126AF1823CD93004698BA /* JpPluscNSRailsTestAppDelegate.m */,
 				211126B11823CD93004698BA /* Main.storyboard */,
@@ -130,6 +140,9 @@
 				211126A61823CD93004698BA /* Supporting Files */,
 				21B720471823E12700CD505D /* JpPluscNSRailsTestUser.h */,
 				21B720481823E12700CD505D /* JpPluscNSRailsTestUser.m */,
+				2DFB4FFD182DF79800E7E9DE /* JpPluscNSRailsTestCell.h */,
+				2DFB4FFE182DF79800E7E9DE /* JpPluscNSRailsTestCell.m */,
+				2DFB5000182DF82B00E7E9DE /* JpPluscNSRailsTestCell.xib */,
 			);
 			path = NSRailsTest;
 			sourceTree = "<group>";
@@ -242,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFB5001182DF82B00E7E9DE /* JpPluscNSRailsTestCell.xib in Resources */,
 				211126B81823CD93004698BA /* Images.xcassets in Resources */,
 				211126AA1823CD93004698BA /* InfoPlist.strings in Resources */,
 				211126B31823CD93004698BA /* Main.storyboard in Resources */,
@@ -300,6 +314,8 @@
 				211126AC1823CD93004698BA /* main.m in Sources */,
 				211126B01823CD93004698BA /* JpPluscNSRailsTestAppDelegate.m in Sources */,
 				21B720491823E12700CD505D /* JpPluscNSRailsTestUser.m in Sources */,
+				2DFB4FFF182DF79800E7E9DE /* JpPluscNSRailsTestCell.m in Sources */,
+				2DFB4FFC182D511800E7E9DE /* JpPluscNSRailsTestSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
